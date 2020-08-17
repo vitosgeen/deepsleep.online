@@ -1,0 +1,22 @@
+uuid: 2a7d9d2c-5ae5-4e81-b56a-19fb11b2e430
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deepsleep_b3
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: deepsleep_b3_breadcrumbs
+theme: deepsleep_b3
+region: content
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

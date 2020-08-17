@@ -1,0 +1,10 @@
+uuid: 35af96ec-a1eb-43ea-8946-057540a7fae7
+langcode: uk
+status: true
+dependencies: {  }
+id: seller
+label: Продавец
+weight: 4
+is_admin: null
+permissions:
+  - 'access site in maintenance mode'

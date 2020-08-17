@@ -1,0 +1,10 @@
+uuid: 3ed07e4b-d7ad-413a-ac58-6bd0790e372b
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.token
+label: Замінник
+targetEntityType: commerce_store
+cache: true

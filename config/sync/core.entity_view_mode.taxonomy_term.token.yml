@@ -1,0 +1,10 @@
+uuid: eef9d406-27ce-4313-abb1-e2c132dd65c9
+langcode: uk
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.token
+label: Замінник
+targetEntityType: taxonomy_term
+cache: true

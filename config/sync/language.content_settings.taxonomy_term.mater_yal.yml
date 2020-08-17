@@ -1,0 +1,11 @@
+uuid: c6866800-0dd9-473f-9cf2-75ab6a6df4ab
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mater_yal
+id: taxonomy_term.mater_yal
+target_entity_type_id: taxonomy_term
+target_bundle: mater_yal
+default_langcode: site_default
+language_alterable: false

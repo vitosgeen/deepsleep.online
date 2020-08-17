@@ -1,0 +1,10 @@
+uuid: 4fef30da-ed19-47cd-ba87-e51071225261
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_order
+id: commerce_order.token
+label: Замінник
+targetEntityType: commerce_order
+cache: true

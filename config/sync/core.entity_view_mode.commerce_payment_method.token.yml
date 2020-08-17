@@ -1,0 +1,10 @@
+uuid: 4485571c-9e2a-4cbd-a678-cbcc2ada5137
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_payment
+id: commerce_payment_method.token
+label: Замінник
+targetEntityType: commerce_payment_method
+cache: true

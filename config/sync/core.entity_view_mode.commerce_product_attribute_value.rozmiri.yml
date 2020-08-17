@@ -1,0 +1,10 @@
+uuid: 513bba61-8828-44fd-b20e-175068f89e06
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_attribute_value.rozmiri
+label: Розміри
+targetEntityType: commerce_product_attribute_value
+cache: true

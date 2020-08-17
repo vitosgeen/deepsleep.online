@@ -1,0 +1,10 @@
+uuid: f7107311-219a-43d8-9cf4-e6cd3df700c3
+langcode: uk
+status: true
+dependencies:
+  module:
+    - path_alias
+id: path_alias.token
+label: Замінник
+targetEntityType: path_alias
+cache: true

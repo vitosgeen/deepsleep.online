@@ -1,0 +1,21 @@
+uuid: 49e6df7f-d316-4d3d-82d4-50110a2f39e8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_t
+    - profile.type.customer
+  module:
+    - telephone
+id: profile.customer.field_t
+field_name: field_t
+entity_type: profile
+bundle: customer
+label: Телефон
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

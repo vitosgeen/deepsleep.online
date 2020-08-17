@@ -1,0 +1,14 @@
+uuid: 88cf4ec7-271f-4c01-a74e-00d79cc4ecc8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.moderator
+  module:
+    - user
+id: user_add_role_action.moderator
+label: 'Додати роль Модератор до вибраних користувачів'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: moderator

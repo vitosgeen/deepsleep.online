@@ -1,0 +1,14 @@
+uuid: 848f44a7-a9b5-4e5a-8c77-1436c7b953ae
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Зворотний зв''язок вебсайту'
+recipients:
+  - vitosgeen@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

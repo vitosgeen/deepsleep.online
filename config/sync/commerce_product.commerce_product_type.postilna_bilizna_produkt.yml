@@ -1,0 +1,12 @@
+uuid: 1fe51409-e88b-47ef-a0fc-cce0cd9b8be3
+langcode: uk
+status: true
+dependencies: {  }
+id: postilna_bilizna_produkt
+label: 'Постільна білизна Продукт'
+description: ''
+variationType: postilna_bilizna_varianty
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

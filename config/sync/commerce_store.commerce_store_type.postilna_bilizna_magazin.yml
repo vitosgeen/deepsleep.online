@@ -1,0 +1,9 @@
+uuid: a96d7a8e-19ea-40be-94c3-a5d1eb441215
+langcode: uk
+status: true
+dependencies: {  }
+id: postilna_bilizna_magazin
+label: 'Постільна білизна Магазин'
+description: ''
+traits: {  }
+locked: false

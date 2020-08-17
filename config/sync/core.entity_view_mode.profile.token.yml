@@ -1,0 +1,10 @@
+uuid: 9a7ff4f6-beed-4de9-9cc4-3d3594b5e8f2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.token
+label: Замінник
+targetEntityType: profile
+cache: true

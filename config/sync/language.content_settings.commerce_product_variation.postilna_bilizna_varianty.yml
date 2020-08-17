@@ -1,0 +1,11 @@
+uuid: ba6be604-056d-4aca-bdae-23046ad4e016
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.postilna_bilizna_varianty
+id: commerce_product_variation.postilna_bilizna_varianty
+target_entity_type_id: commerce_product_variation
+target_bundle: postilna_bilizna_varianty
+default_langcode: site_default
+language_alterable: false

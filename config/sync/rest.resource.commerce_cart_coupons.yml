@@ -1,0 +1,22 @@
+uuid: c05ac7f5-fa06-4964-8c1e-9d288c90b65a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_cart_api
+    - serialization
+    - user
+_core:
+  default_config_hash: '-VZFihnbsF6hEpC1DV9RX_b3dI4QQkqGTNiv6qMTbkA'
+id: commerce_cart_coupons
+plugin_id: commerce_cart_coupons
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - PATCH
+    - DELETE
+  formats:
+    - json
+  authentication:
+    - cookie

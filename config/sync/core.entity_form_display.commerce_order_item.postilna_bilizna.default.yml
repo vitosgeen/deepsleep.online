@@ -1,0 +1,41 @@
+uuid: 419390b2-71ad-4ca7-8024-0ad9ec7b2f9b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.postilna_bilizna
+  module:
+    - commerce
+    - commerce_order
+id: commerce_order_item.postilna_bilizna.default
+targetEntityType: commerce_order_item
+bundle: postilna_bilizna
+mode: default
+content:
+  purchased_entity:
+    type: commerce_entity_select
+    weight: -1
+    settings:
+      hide_single_entity: true
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: ''
+    region: content
+    third_party_settings: {  }
+  quantity:
+    type: commerce_quantity
+    weight: 1
+    region: content
+    settings:
+      step: '1'
+      placeholder: ''
+    third_party_settings: {  }
+  unit_price:
+    type: commerce_unit_price
+    weight: 2
+    settings:
+      require_confirmation: true
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true

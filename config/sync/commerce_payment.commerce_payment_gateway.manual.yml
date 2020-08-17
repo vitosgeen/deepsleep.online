@@ -1,0 +1,19 @@
+uuid: 0271bcc5-9e9f-493b-8bc4-e6d5a3d1e39c
+langcode: uk
+status: true
+dependencies: {  }
+id: manual
+label: Ручками
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

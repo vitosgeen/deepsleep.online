@@ -1,0 +1,19 @@
+uuid: 688e4024-7ce6-4bea-b441-5814449ce3d7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.sizes
+    - field.storage.commerce_product_attribute_value.field_parametri
+id: commerce_product_attribute_value.sizes.field_parametri
+field_name: field_parametri
+entity_type: commerce_product_attribute_value
+bundle: sizes
+label: Параметри
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

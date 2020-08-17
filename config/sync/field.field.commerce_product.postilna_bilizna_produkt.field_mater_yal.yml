@@ -1,0 +1,29 @@
+uuid: 1b056474-9292-48f9-9116-d4b993cea194
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.postilna_bilizna_produkt
+    - field.storage.commerce_product.field_mater_yal
+    - taxonomy.vocabulary.mater_yal
+id: commerce_product.postilna_bilizna_produkt.field_mater_yal
+field_name: field_mater_yal
+entity_type: commerce_product
+bundle: postilna_bilizna_produkt
+label: Матеріал
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mater_yal: mater_yal
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

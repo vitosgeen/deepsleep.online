@@ -1,0 +1,45 @@
+uuid: d878d28e-e54a-42d1-b134-53b79fe37a63
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_payment
+    - commerce_promotion
+id: prosto
+label: Просто
+plugin: multistep_default
+configuration:
+  display_checkout_progress: true
+  panes:
+    review:
+      step: login
+      weight: 0
+    completion_register:
+      step: login
+      weight: 2
+    contact_information:
+      step: login
+      weight: 2
+    completion_message:
+      step: login
+      weight: 3
+    order_summary:
+      view: ''
+      step: login
+      weight: 4
+    coupon_redemption:
+      allow_multiple: false
+      step: _disabled
+      weight: 5
+    login:
+      allow_guest_checkout: true
+      allow_registration: false
+      step: _disabled
+      weight: 6
+    payment_information:
+      step: _disabled
+      weight: 7
+    payment_process:
+      capture: true
+      step: _disabled
+      weight: 8

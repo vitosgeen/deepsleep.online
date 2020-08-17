@@ -1,0 +1,10 @@
+uuid: a6728087-ade7-4644-9726-3613344ede08
+langcode: uk
+status: true
+dependencies: {  }
+id: moderator
+label: Модератор
+weight: 3
+is_admin: null
+permissions:
+  - 'access site in maintenance mode'

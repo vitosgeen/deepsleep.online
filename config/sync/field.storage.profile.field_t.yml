@@ -1,0 +1,19 @@
+uuid: 7397770e-0b72-4d8b-b863-203055af1f0e
+langcode: uk
+status: true
+dependencies:
+  module:
+    - profile
+    - telephone
+id: profile.field_t
+field_name: field_t
+entity_type: profile
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

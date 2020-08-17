@@ -1,0 +1,7 @@
+uuid: 852c6a7b-c5f1-44ca-af24-c0d9e504e7db
+langcode: uk
+status: true
+dependencies: {  }
+id: cvet
+label: Цвет
+elementType: select

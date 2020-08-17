@@ -1,0 +1,10 @@
+uuid: dea1fe8e-b88d-439a-8b27-2fa46ef2d18b
+langcode: uk
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Замінник
+targetEntityType: contact_message
+cache: true

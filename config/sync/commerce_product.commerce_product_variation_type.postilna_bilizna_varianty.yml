@@ -1,0 +1,18 @@
+uuid: aa3f72d1-66ba-4674-8918-aae4943add07
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_autosku
+third_party_settings:
+  commerce_autosku:
+    mode: enabled
+    plugin: token
+    configuration:
+      pattern: '[commerce_product_variation:product_id]-[commerce_product_variation:original:attribute_sizes]-[commerce_product_variation:original:attribute_cvet]'
+id: postilna_bilizna_varianty
+label: 'Постільна білизна Варианты'
+orderItemType: postilna_bilizna
+generateTitle: true
+traits: {  }
+locked: false

@@ -1,0 +1,36 @@
+uuid: 3e250503-16e6-4869-b264-482c9b656919
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.sizes
+    - field.field.commerce_product_attribute_value.sizes.field_parametri
+id: commerce_product_attribute_value.sizes.default
+targetEntityType: commerce_product_attribute_value
+bundle: sizes
+mode: default
+content:
+  field_parametri:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

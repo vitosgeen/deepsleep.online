@@ -1,0 +1,23 @@
+uuid: 5b6e0e24-a58d-4d5a-ac7b-fd4e4a2f5e5e
+langcode: uk
+status: true
+dependencies: {  }
+name: 480x480
+label: 480X480
+effects:
+  77fa148a-b863-4459-97d5-a0f0e353233f:
+    uuid: 77fa148a-b863-4459-97d5-a0f0e353233f
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: true
+  ea673a76-9068-4812-b7db-583523b33d02:
+    uuid: ea673a76-9068-4812-b7db-583523b33d02
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 480
+      height: 480
+      anchor: center-center

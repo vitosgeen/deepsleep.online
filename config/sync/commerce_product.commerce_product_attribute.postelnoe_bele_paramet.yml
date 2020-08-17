@@ -1,0 +1,7 @@
+uuid: 6c2bba0f-442b-4885-9260-5326c548d286
+langcode: uk
+status: true
+dependencies: {  }
+id: postelnoe_bele_paramet
+label: 'Постельное белье параметры'
+elementType: radios

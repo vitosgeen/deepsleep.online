@@ -1,0 +1,7 @@
+uuid: 091f2ee6-307c-477a-93ad-f158ef5c72ae
+langcode: uk
+status: true
+dependencies: {  }
+id: sizes
+label: Розміри
+elementType: select

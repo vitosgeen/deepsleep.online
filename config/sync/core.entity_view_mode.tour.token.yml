@@ -1,0 +1,10 @@
+uuid: 9f823e14-6ea6-4902-9eb7-09c5528f6ccc
+langcode: uk
+status: true
+dependencies:
+  module:
+    - tour
+id: tour.token
+label: Замінник
+targetEntityType: tour
+cache: true

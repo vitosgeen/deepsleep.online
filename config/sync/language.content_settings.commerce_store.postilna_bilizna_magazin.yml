@@ -1,0 +1,11 @@
+uuid: 36eca1a9-7925-47d9-ac37-d5d697cfdb5b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.postilna_bilizna_magazin
+id: commerce_store.postilna_bilizna_magazin
+target_entity_type_id: commerce_store
+target_bundle: postilna_bilizna_magazin
+default_langcode: site_default
+language_alterable: false

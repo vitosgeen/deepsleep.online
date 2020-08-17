@@ -1,0 +1,21 @@
+uuid: ae2a73c6-0ad3-4399-9646-0b42e140536d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_attribute_value.field_rozmir
+field_name: field_rozmir
+entity_type: commerce_product_attribute_value
+type: string
+settings:
+  max_length: 2550
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

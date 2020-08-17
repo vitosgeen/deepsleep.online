@@ -1,0 +1,14 @@
+uuid: 0b60b5f8-4132-4a9e-bd77-efcc7853e60c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.seller
+  module:
+    - user
+id: user_remove_role_action.seller
+label: 'Вилучити роль Продавец у вибраних користувачів'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: seller

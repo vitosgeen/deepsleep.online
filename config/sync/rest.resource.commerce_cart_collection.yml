@@ -1,0 +1,20 @@
+uuid: 86907afe-a595-4f3d-a612-b963dda1bde4
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_cart_api
+    - serialization
+    - user
+_core:
+  default_config_hash: hmTTiE7SFlCqDYrx7_F-rWrUkDx2GrFg3wN6BcIq5xc
+id: commerce_cart_collection
+plugin_id: commerce_cart_collection
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

@@ -1,0 +1,14 @@
+uuid: 66d46fae-70e2-4a27-bf34-ceaf0e114693
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.seller
+  module:
+    - user
+id: user_add_role_action.seller
+label: 'Додати роль Продавец до вибраних користувачів'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: seller

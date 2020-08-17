@@ -1,0 +1,10 @@
+uuid: de46eee3-0e76-46c7-a368-412b804ba50e
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_log
+id: commerce_log.token
+label: Замінник
+targetEntityType: commerce_log
+cache: true

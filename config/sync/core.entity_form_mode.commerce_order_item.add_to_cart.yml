@@ -1,0 +1,15 @@
+uuid: bccfeb04-76a1-4202-ac66-fa6e55a0a62a
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_cart
+  module:
+    - commerce_order
+_core:
+  default_config_hash: BeqBf6Mm59Nebv4SsV0yvK5EspkCegPqvwnqwEBvEp0
+id: commerce_order_item.add_to_cart
+label: 'Додати в кошик'
+targetEntityType: commerce_order_item
+cache: true

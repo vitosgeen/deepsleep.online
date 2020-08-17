@@ -1,0 +1,22 @@
+uuid: 33ed42d2-7828-491e-8100-3cac72b7e5c9
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - deepsleep_b3
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: deepsleep_b3_help
+theme: deepsleep_b3
+region: header
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 1dc7b1c1-f825-4468-9d4b-9081cdf8c1c6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.token
+label: Замінник
+targetEntityType: comment
+cache: true

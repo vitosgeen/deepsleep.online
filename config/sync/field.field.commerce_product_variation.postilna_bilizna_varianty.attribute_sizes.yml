@@ -1,0 +1,28 @@
+uuid: 7446acee-c959-4cf7-9b03-f44a08badf2a
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.sizes
+    - commerce_product.commerce_product_variation_type.postilna_bilizna_varianty
+    - field.storage.commerce_product_variation.attribute_sizes
+id: commerce_product_variation.postilna_bilizna_varianty.attribute_sizes
+field_name: attribute_sizes
+entity_type: commerce_product_variation
+bundle: postilna_bilizna_varianty
+label: Розмір
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      sizes: sizes
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

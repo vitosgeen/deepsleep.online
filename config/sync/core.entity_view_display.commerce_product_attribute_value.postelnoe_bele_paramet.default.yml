@@ -1,0 +1,31 @@
+uuid: 87500beb-3307-4536-a690-3a7394c37103
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.postelnoe_bele_paramet
+    - field.field.commerce_product_attribute_value.postelnoe_bele_paramet.field_rozmir
+id: commerce_product_attribute_value.postelnoe_bele_paramet.default
+targetEntityType: commerce_product_attribute_value
+bundle: postelnoe_bele_paramet
+mode: default
+content:
+  field_rozmir:
+    weight: -4
+    label: above
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+    type: string
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

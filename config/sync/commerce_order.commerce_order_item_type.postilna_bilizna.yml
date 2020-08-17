@@ -1,0 +1,15 @@
+uuid: 3767521a-c082-485c-a87c-cc5d09d898c1
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: physical_goods
+label: 'Постільна білизна Пункт Орлера'
+id: postilna_bilizna
+purchasableEntityType: commerce_product_variation
+orderType: postilna_bilizna
+traits: {  }
+locked: false
