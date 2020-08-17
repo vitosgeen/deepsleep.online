@@ -1,6 +1,6 @@
 name: deepsleep
 type: theme
-description: 'deepsleep subtheme'
+description: 'deepsleep subtheme Bootstrap4'
 core: 8.x
 core_version_requirement: ^8 || ^9
 base theme: bootstrap4
