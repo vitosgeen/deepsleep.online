@@ -45,7 +45,6 @@
         "drupal/facets": "^1.5",
         "drupal/field_group": "^3.0",
         "drupal/module_filter": "^3.1",
-        "drupal/omega": "^5.0",
         "drupal/search_api": "^1.17",
         "drupal/swiftmailer": "^1.0",
         "drupal/token": "^1.0",
