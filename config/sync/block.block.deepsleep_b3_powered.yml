@@ -1,0 +1,22 @@
+uuid: 1072fb10-b794-46e3-82eb-99573ff32a57
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - deepsleep_b3
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: deepsleep_b3_powered
+theme: deepsleep_b3
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

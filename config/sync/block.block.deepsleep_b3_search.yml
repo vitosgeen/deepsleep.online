@@ -1,0 +1,23 @@
+uuid: 3cde732b-40b4-456e-8a8c-07e3d99cd4c6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - deepsleep_b3
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: deepsleep_b3_search
+theme: deepsleep_b3
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }
