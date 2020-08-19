@@ -1,6 +1,6 @@
 uuid: e8a55b83-ae04-4180-b6ae-6b8a874961ae
 langcode: uk
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools

@@ -1,4 +1,27 @@
-schemas: {  }
-_core:
-  default_config_hash: 1uFogeFphl0Hg6oVCacZZ8mM_0wMZ7PS_RrmLbK5tf0
-langcode: uk
+schemas:
+  bootstrap: 8000
+  deepsleep_b3: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://deepsleep.online/themes/custom/deepsleep_b3/favicon.ico'
+  use_default: true
+fluid_container: 1
+table_responsive: '-1'
+button_size: btn-lg
+cdn_theme: yeti
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
